@@ -1,4 +1,4 @@
-# pi-timelapse-control
+# pi-photo-control
 Scripts for controlling a DSLR Camera using a Raspberry pi or other linux machines
 
 # How to use the scripts.
