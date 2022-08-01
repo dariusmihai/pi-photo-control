@@ -1,10 +1,10 @@
-from asyncio.windows_events import NULL
 import socket
 import sys
 
-tcp_socket = NULL
+tcp_socket = None
 
 def connect():
+    global tcp_socket
     # Set up a TCP/IP server
     tcp_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  
@@ -16,6 +16,7 @@ def connect():
     tcp_socket.listen(1)
 
 def main_loop():
+    global tcp_socket
     while True:
         print("Waiting for connection")
         connection, client = tcp_socket.accept()
