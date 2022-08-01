@@ -11,4 +11,5 @@ Scripts for controlling a DSLR Camera using a Raspberry pi or other linux machin
 
 For example:
 `./timelapse.sh --exposure-time 5 --number-frames 20 --pause-time 10`
+
 This will start a sequence of 20 photos, each having a 5 seconds exposure time, with a pause of 10 seconds between exposures.
