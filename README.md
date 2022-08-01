@@ -1,5 +1,5 @@
 # pi-timelapse-control
-Scripts for controlling a DSLR Camera from a Raspberry pi or other linux machines
+Scripts for controlling a DSLR Camera using a Raspberry pi or other linux machines
 
 # How to use the scripts.
 1. Run init-camera.sh.
