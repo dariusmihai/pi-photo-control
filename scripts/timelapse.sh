@@ -4,6 +4,8 @@ EXPOSURE_TIME=0
 NUMBER_FRAMES=0
 PAUSE_TIME=5
 
+SCRIPT_PATH=$(dirname "$0")
+
 # Function that prints usage and  help.
 usage () {
   echo "Starts a timelapse on the camera attached on USB"
@@ -79,7 +81,7 @@ main() {
     do
       echo " "
       echo "${i} / ${NUMBER_FRAMES}"
-      ./take-snapshot-bulb.sh ${EXPOSURE_TIME}
+      ${SCRIPT_PATH}/take-snapshot-bulb.sh ${EXPOSURE_TIME}
       sleep ${PAUSE_TIME}
     done
   echo "${NUMBER_FRAMES} frames done"
