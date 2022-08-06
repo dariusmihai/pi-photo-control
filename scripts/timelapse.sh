@@ -79,7 +79,7 @@ main() {
     do
       echo " "
       echo "${i} / ${NUMBER_FRAMES}"
-      ./take-snapshot.sh ${EXPOSURE_TIME}
+      ./take-snapshot-bulb.sh ${EXPOSURE_TIME}
       sleep ${PAUSE_TIME}
     done
   echo "${NUMBER_FRAMES} frames done"

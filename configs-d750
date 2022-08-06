@@ -1,0 +1,167 @@
+
+
+#gphoto2 --set-config capturetarget=1 --debug-logfile=d750-log.txt
+
+#gphoto2 --set-config shutterspeed=53   # 53 is Time, 52 is Bulb
+#gphoto2 --set-config shutterspeed2=53   # 53 is Time, 52 is Bulb
+
+
+
+
+#gphoto2 --get-config capturemode
+#Label: Still Capture Mode
+#Readonly: 1
+#Type: RADIO
+#Current: Mirror Up
+#Choice: 0 Single Shot
+#Choice: 1 Burst
+#Choice: 2 Continuous Low Speed
+#Choice: 3 Timer
+#Choice: 4 Mirror Up
+#Choice: 5 Quiet Release
+#Choice: 6 Continuous Quiet Release
+#END
+
+
+
+# gphoto2 --auto-detect --set-config capturetarget=1 --set-config shutterspeed=52 --set-config shutterspeed2=53
+
+# shows that trigger-capture is available
+# gphoto2 --abilities
+
+
+/main/actions/bulb
+/main/actions/bulb
+/main/actions/autofocusdrive
+/main/actions/manualfocusdrive
+/main/actions/changeafarea
+/main/actions/controlmode
+/main/actions/viewfinder
+/main/actions/movie
+/main/actions/opcode
+/main/settings/datetime
+/main/settings/imagecomment
+/main/settings/imagecommentenable
+/main/settings/recordingmedia
+/main/settings/artist
+/main/settings/copyright
+/main/settings/cleansensor
+/main/settings/flickerreduction
+/main/settings/thumbsize
+/main/settings/fastfs
+/main/settings/capturetarget
+/main/settings/autofocus
+/main/status/serialnumber
+/main/status/manufacturer
+/main/status/cameramodel
+/main/status/deviceversion
+/main/status/vendorextension
+/main/status/acpower
+/main/status/externalflash
+/main/status/batterylevel
+/main/status/continousshootingcount
+/main/status/orientation
+/main/status/orientation2
+/main/status/flashopen
+/main/status/activefolder
+/main/status/flashcharged
+/main/status/availableshots
+/main/status/minfocallength
+/main/status/maxfocallength
+/main/status/apertureatminfocallength
+/main/status/apertureatmaxfocallength
+/main/status/lowlight
+/main/status/lightmeter
+/main/status/aflocked
+/main/status/aelocked
+/main/status/fvlocked
+/main/status/movieprohibit
+/main/status/liveviewprohibit
+/main/imgsettings/imagesize
+/main/imgsettings/iso
+/main/imgsettings/movieiso
+/main/imgsettings/isoauto
+/main/imgsettings/autoiso
+/main/imgsettings/whitebalance
+/main/imgsettings/colorspace
+/main/capturesettings/minimumshutterspeed
+/main/capturesettings/isoautohilimit
+/main/capturesettings/dlighting
+/main/capturesettings/highisonr
+/main/capturesettings/moviehighisonr
+/main/capturesettings/shootingspeed
+/main/capturesettings/maximumcontinousrelease
+/main/capturesettings/moviequality
+/main/capturesettings/rawcompression
+/main/capturesettings/flashsyncspeed
+/main/capturesettings/flashshutterspeed
+/main/capturesettings/liveviewsize
+/main/capturesettings/longexpnr
+/main/capturesettings/assistlight
+/main/capturesettings/exposurecompensation
+/main/capturesettings/movieexposurecompensation
+/main/capturesettings/flashmode
+/main/capturesettings/nikonflashmode
+/main/capturesettings/f-number
+/main/capturesettings/movief-number
+/main/capturesettings/flexibleprogram
+/main/capturesettings/imagequality
+/main/capturesettings/focallength
+/main/capturesettings/focusmode
+/main/capturesettings/focusmode2
+/main/capturesettings/effectmode
+/main/capturesettings/expprogram
+/main/capturesettings/usermode
+/main/capturesettings/scenemode
+/main/capturesettings/hdrmode
+/main/capturesettings/hdrsmoothing
+/main/capturesettings/capturemode
+/main/capturesettings/focusmetermode
+/main/capturesettings/exposuremetermode
+/main/capturesettings/shutterspeed
+/main/capturesettings/shutterspeed2
+/main/capturesettings/movieshutterspeed
+/main/capturesettings/focusareawrap
+/main/capturesettings/exposuredelaymode
+/main/capturesettings/liveviewafmode
+/main/capturesettings/liveviewaffocus
+/main/capturesettings/liveviewimagezoomratio
+/main/capturesettings/filenrsequencing
+/main/capturesettings/imagerotationflag
+/main/capturesettings/nocfcardrelease
+/main/capturesettings/autofocusarea
+/main/capturesettings/flashexposurecompensation
+/main/capturesettings/bracketing
+/main/capturesettings/evstep
+/main/capturesettings/bracketset
+/main/capturesettings/bracketorder
+/main/capturesettings/aebracketingstep
+/main/capturesettings/wbbracketingstep
+/main/capturesettings/aebracketingpattern
+/main/capturesettings/wbbracketingpattern
+/main/capturesettings/aebracketingcount
+/main/capturesettings/adlbracketingpattern
+/main/capturesettings/adlbracketingstep
+/main/capturesettings/wbpresetcomment1
+/main/capturesettings/wbpresetcomment2
+/main/capturesettings/wbpresetcomment3
+/main/capturesettings/wbpresetcomment4
+/main/capturesettings/wbpresetcomment6
+/main/capturesettings/burstnumber
+/main/capturesettings/autowhitebias
+/main/capturesettings/tungstenwhitebias
+/main/capturesettings/flourescentwhitebias
+/main/capturesettings/daylightwhitebias
+/main/capturesettings/flashwhitebias
+/main/capturesettings/cloudywhitebias
+/main/capturesettings/shadewhitebias
+/main/capturesettings/whitebiaspresetno
+/main/capturesettings/whitebiaspreset1
+/main/capturesettings/whitebiaspreset2
+/main/capturesettings/whitebiaspreset3
+/main/capturesettings/whitebiaspreset4
+/main/capturesettings/centerweightsize
+/main/capturesettings/applicationmode
+/main/capturesettings/microphone
+/main/capturesettings/autodistortioncontrol
+/main/capturesettings/vignettecorrection
