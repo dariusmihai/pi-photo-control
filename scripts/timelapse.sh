@@ -77,11 +77,15 @@ main() {
     usage
     exit 1;
   fi
+  SNAPSHOT_SCRIPT="take-snapshot-bulb.sh";
+  if (($EXPOSURE_TIME < 30)); then
+    SNAPSHOT_SCRIPT="take-snapshot.sh"
+  fi
   for i in $(seq 1 $NUMBER_FRAMES)
     do
       echo " "
       echo "${i} / ${NUMBER_FRAMES}"
-      ${SCRIPT_PATH}/take-snapshot-bulb.sh ${EXPOSURE_TIME}
+      ${SCRIPT_PATH}/${SNAPSHOT_SCRIPT} ${EXPOSURE_TIME}
       sleep ${PAUSE_TIME}
     done
   echo "${NUMBER_FRAMES} frames done"

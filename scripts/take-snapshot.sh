@@ -3,4 +3,4 @@
 EXPOSURE_TIME=$1
 
 # trigger the camera
-gphoto2 --auto-detect --trigger-capture --wait-event=${EXPOSURE_TIME}s
+gphoto2 --auto-detect --set-config shutterspeed=${EXPOSURE_TIME}s --capture-image
