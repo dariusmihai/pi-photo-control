@@ -1,6 +1,6 @@
 #!/bin/sh
 
-EXPOSURE_TIME=$1
+SHUTTER_SPEED_ID=$1
 
 # trigger the camera
-gphoto2 --auto-detect --set-config shutterspeed=${EXPOSURE_TIME}s --trigger-capture
+gphoto2 --auto-detect --set-config shutterspeed=${SHUTTER_SPEED_ID} --trigger-capture
