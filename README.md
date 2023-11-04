@@ -1,5 +1,6 @@
 # pi-photo-control
-Scripts for controlling a DSLR Camera using a Raspberry pi or other linux machines
+Scripts for controlling a DSLR Camera using a Raspberry pi or other linux machines.
+Created for use and tested on the Astroberry distro.
 
 # How to use the scripts.
 1. Run init-camera.sh.
